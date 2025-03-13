@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/img_01.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Hotel Heavenly</title>
+</head>
+<body class="font-poppins">
+    <header>
+        <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./img/img_01.svg" class="h-8" alt="Hotel Heavenly Logo">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hotel Heavenly</span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                        started</button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#About"
+                                class="block py-2 px-3 text-gray-900 rounded-sm md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                        </li>
+                        <li>
+                            <a href="#Services"
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                        </li>
+                        <li>
+                            <a href="#Contact"
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full">
+                <img src="./img/1.png" class="w-full" />
+            </div>
+            <div id="item2" class="carousel-item w-full">
+                <img src="./img/2.png" class="w-full" alt="Slide 2" />
+            </div>
+            <div id="item3" class="carousel-item w-full">''
+                <img src="./img/3.png" class="w-full" />
+            </div>
+            <div id="item4" class="carousel-item w-full">
+                <img src="./img/4.png" class="w-full" />
+            </div>
+            <div id="item5" class="carousel-item w-full">
+                <img src="./img/5.png" class="w-full" />
+            </div>
+            <div id="item6" class="carousel-item w-full">
+                <img src="./img/6.png" class="w-full" />
+            </div>
+            <div id="item7" class="carousel-item w-full">
+                <img src="./img/7.png" class="w-full" />
+            </div>
+            <div id="item8" class="carousel-item w-full">
+                <img src="./img/8.png" class="w-full" />
+            </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-5 bg-blue-950">
+            <a href="#item1" class="btn btn-xs">1</a>
+            <a href="#item2" class="btn btn-xs">2</a>
+            <a href="#item3" class="btn btn-xs">3</a>
+            <a href="#item4" class="btn btn-xs">4</a>
+            <a href="#item5" class="btn btn-xs">5</a>
+            <a href="#item6" class="btn btn-xs">6</a>
+            <a href="#item7" class="btn btn-xs">7</a>
+            <a href="#item8" class="btn btn-xs">8</a>
+        </div>
+    </header>
+    <main>
+        <section class="px-10 py-5 bg-gray-200 dark:bg-gray-300 align-middle">
+            <h1 class="text-center text-3xl text-yellow-600 pb-8 font-bold">Our Partners</h1>
+            <div class="flex flex-wrap justify-evenly gap-10">
+                <img src="./img/h1.svg" alt="Ameri Suites" class="w-24 h-24">
+                <img src="./img/h2.svg" alt="Four Point" class="w-24 h-24">
+                <img src="./img/h3.svg" alt="Delta Hotels" class="w-24 h-24">
+                <img src="./img/h4.svg" alt="Hastings" class="w-24 h-24">
+                <img src="./img/h5.svg" alt="Hotel Wetterstein" class="w-24 h-24">
+            </div>
+        </section>
+        <section id="About" class="p-10 bg-blue-400 dark:bg-blue-300 align-middle" >
+            <h1 class="text-center text-3xl text-yellow-600 pb-5 font-bold">About Us</h1>
+            <p class="text-justify text-lg">Hotel Heavenly is a luxury hotel located in the heart of the city. We offer
+                the best services and amenities to our guests. Our hotel is known for its excellent customer service and
+                comfortable rooms. We have a team of dedicated staff who are always ready to assist you with anything you
+                need. Whether you are traveling for business or pleasure, Hotel Heavenly is the perfect place to stay.</p>
+            <div class="flex justify-center gap-10 align-middle py-8">
+                <div class="shadow-2xl ...">
+                    <address class="p-6 bg-blue-800 dark:bg-blue-900 dark:text-white rounded-lg">
+                        <strong>Address:</strong><br>
+                        Telapati road, <br> Chawk Bazar, Chittagong <br>
+                        Phone: 01836968623
+                    </address>
+                </div>
+                <div class="shadow-2xl ...">
+                    <address class="p-6 bg-blue-800 dark:bg-blue-900 dark:text-white rounded-lg">
+                        <strong>Hours:</strong><br>
+                        Monday - Friday: 9am - 5pm<br>
+                        Saturday: 10am - 4pm<br>
+                        Sunday: Closed
+                    </address>
+                </div>
+            </div>
+        </section>
+        <section id="Services" class="p-10 bg-green-500 dark:bg-green-600 align-middle">
+            <h1 class="text-left text-3xl text-yellow-600 pb-6 font-bold">Our Services</h1>
+            <h1 class="text-3xl text-center text-orange-300 font-bold pb-6">Available Rooms</h1>
+            <div class="flex flex-wrap justify-center gap-10">
+                <div class="card bg-base-100 w-65 shadow-sm">
+                    <figure>
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/81976364.webp?k=7b722f546c34a6c65991239ea825080e4af1a1b92c6b68a7540ac466c88e0f4c&o="
+                            alt="Room - 01" class="w-65" />
+                    </figure>
+                    <div class="card-body text-white bg-blue-500 dark:bg-blue-600">
+                        <h2 class="card-title">Luxury Room</h2>
+                        <p class="text-justify">This room is very comfortable to use when you are
+                            with your partner for months because of its
+                            luxurious and romantic design that makes
+                            your time together...</p>
+                        <div class="card-actions justify-evenly pt-4">
+                            <h1 class="text-3xl text-yellow-500">৳1500</h1>
+                            <button class="btn btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-65 shadow-sm">
+                    <figure>
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/648090517.webp?k=ee28e3ae82f5d447240a0b5f2ed3e5cafe6835e89a4a664d52e8d2b8639ccba5&o="
+                            alt="Room - 01" class="w-65" />
+                    </figure>
+                    <div class="card-body text-white bg-blue-500 dark:bg-blue-600">
+                        <h2 class="card-title text-center">Elegant Room</h2>
+                        <p class="text-justify">This is an elegant room choice especially for those
+                        of you who like peace and quiet. Here you can rest
+                        and pamper yourself in a special way, plus the
+                        services we always provide....</p>
+                        <div class="card-actions justify-evenly pt-4">
+                            <h1 class="text-3xl text-yellow-500">৳2500</h1>
+                            <button class="btn btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-65 shadow-sm">
+                    <figure>
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/103705903.webp?k=1d3455c9e648352efc79c87c153720f67dcead51db97137ca956b215d457f904&o="
+                            alt="Room - 01" class="w-65" />
+                    </figure>
+                    <div class="card-body text-white bg-blue-500 dark:bg-blue-600">
+                        <h2 class="card-title">Minimalist Room</h2>
+                        <p class="text-justify">This is a minimalist room choice, especially for those
+                        of you who like minimalist and simple things. Here
+                        you can rest and pamper yourself comfortably,
+                        rooms that don't have many ornaments....</p>
+                        <div class="card-actions justify-evenly pt-4">
+                            <h1 class="text-3xl text-yellow-500">৳1750</h1>
+                            <button class="btn btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-65 shadow-sm">
+                    <figure>
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/305441177.webp?k=042c60b315733a7941de98d0815f4c3ed40953d4762a4d422fe4702b0cad0c99&o="
+                            alt="Room - 01" class="w-65" />
+                    </figure>
+                    <div class="card-body text-white bg-blue-500 dark:bg-blue-600">
+                        <h2 class="card-title">Luxury Room</h2>
+                        <p class="text-justify">This room is very comfortable to use when you are
+                            with your partner for months because of its
+                            luxurious and romantic design that makes
+                            your time together...</p>
+                        <div class="card-actions justify-evenly pt-4">
+                            <h1 class="text-3xl text-yellow-500">৳4800</h1>
+                            <button class="btn btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="p-10 align-middle">
+                <h1 class="text-3xl text-center font-bold text-orange-300 py-8">Guest Testimonial</h1>
+                <p class="text-justify text-white">These are some of the ratings and reviews given by our hotel visitors who are satisfied with the service. We
+                didn't do any engineering because this testimony came from their account which was used to book lodging
+                on this website.</p>
+                <div class="flex flex-wrap justify-center gap-10  py-8 text-white">
+                    <div class="flex flex-col justify-center w-75 gap-10 py-8 bg-blue-500 dark:bg-blue-600 rounded-lg shadow-2xl ...">
+                        <figcaption class="flex items-center justify-center ">
+                            <img class="rounded-full w-20 "
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture">
+                            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                                <div>Joseph McFall</div>
+                                <h3 class="text-sm text-gray-500 dark:text-gray-400">2 months ago</h3>
+                                <h1>⭐⭐⭐⭐⭐</h1>
+                            </div>
+                        </figcaption>
+                        <div class="text-center px-5">
+                            <p>The room is great! I really like
+                            staying here because the service
+                            is also very good</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center w-75 gap-10 py-8 bg-blue-500 dark:bg-blue-600 rounded-lg shadow-2xl ...">
+                        <figcaption class="flex items-center justify-center ">
+                            <img class="rounded-full w-20 "
+                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="profile picture">
+                            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                                <div>Leslie Alexander</div>
+                                <h3 class="text-sm text-gray-500 dark:text-gray-400">3 months ago</h3>
+                                <h1>⭐⭐⭐⭐⭐</h1>
+                            </div>
+                        </figcaption>
+                        <div class="text-center px-5">
+                            <p>Great! When I stay here, I feel like
+                            I'm in heaven and enjoy all the
+                            perfect services from an angel</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center w-75 gap-10 py-8 bg-blue-500 dark:bg-blue-600 rounded-lg shadow-2xl ...">
+                        <figcaption class="flex items-center justify-center ">
+                            <img class="rounded-full w-20 "
+                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" alt="profile picture">
+                            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                                <div>Lindsay Walton</div>
+                                <h3 class="text-sm text-gray-500 dark:text-gray-400">2 weeks ago</h3>
+                                <h1>⭐⭐⭐⭐</h1>
+                            </div>
+                        </figcaption>
+                        <div class="text-center px-5">
+                            <p>I like to book hotels here because
+                            they are clean, comfortable, safe,
+                            and the waiters are good.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="Contact" class="grid xs:grid-cols-1 md:grid-cols-2 gap-x-4 p-10 bg-lime-500 dark:bg-lime-600 align-middle">
+            <div class="px-6">
+                <h1 class="text-3xl text-orange-300 text-center font-bold">Contact Us</h1>
+                <article class="text-white text-center py-6">If you would like book a room for you or your beloved one, please reach our
+                    contact and address below. We will respond as soon as possible.</article>
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 p-6 bg-blue-500 dark:bg-blue-600 rounded-lg shadow-2xl ... hover:bg-blue-600 dark:hover:bg-blue-700">
+                    <div class="flex flex-row p-5 text-white w-20vh bg-linear-to-r/srgb from-indigo-500 to-teal-400 rounded-lg shadow-2xl ...">
+                        <div class="inline-flex items-center justify-center">
+                            <i class="fa-solid fa-envelope mr-1 text-[30px] mr-1.5 "></i>
+                        </div>
+                        <div>
+                            <h1 class="font-bold"></i>Email</h1>
+                            <P>riyazularfaat@gmail.com</P>
+                        </div>
+
+                    </div>
+                    <div class="flex flex-row p-5 text-white w-20vh bg-linear-to-r/srgb from-indigo-500 to-teal-400 rounded-lg shadow-2xl ...">
+                        <div class="inline-flex items-center justify-center">
+                            <i class="fa-solid fa-phone mr-2 text-[30px] "></i>
+                        </div>
+                        <div>
+                            <h1 class="font-bold"></i>Phone</h1>
+                            <P>01836968623</P>
+                        </div>
+                    </div>
+                    <div class="flex flex-row p-5 text-white w-20vh bg-linear-to-r/srgb from-indigo-500 to-teal-400 rounded-lg shadow-2xl ...">
+                        <div class="inline-flex items-center justify-center">
+                            <i class="fa-solid fa-address-card mr-2 text-[30px] "></i>
+                        </div>
+                        <div>
+                            <h1 class="font-bold">Address</h1>
+                            <P>Telapati road, Chawk Bazar, Chittagong</P>
+                        </div>
+                    </div>
+                    <div class="flex flex-row p-5 text-white w-20vh bg-linear-to-r/srgb from-indigo-500 to-teal-400 rounded-lg shadow-2xl ...">
+                        <div class="inline-flex items-center justify-center">
+                            <i class="fa-solid fa-location-dot mr-2 text-[30px] "></i>
+                        </div>
+                        <div>
+                            <h1 class="font-bold">Location</h1>
+                            <P>Sholoshahor, Chittagong</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-6 lg:py-10 px-10 mt-6 ml-5 max-w-screen-md bg-gray-400 dark:bg-gray-500 rounded-lg shadow-2xl ... hover:bg-gray-500 dark:hover:bg-gray-600">
+                <form action="#" class="space-y-8">
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                            email</label>
+                        <input type="email" id="email"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                            placeholder="name@flowbite.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                        <input type="text" id="subject"
+                            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                            placeholder="Let us know how we can help you" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                            message</label>
+                        <textarea id="message" rows="6"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                            placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="submit"
+                            class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl hover:duration-700 hover:ease-in-out ... focus:ring-4 focus:outline-2 outline-offset-2 outline-pink-500 focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Send message
+                        </button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900 dark:bg-gray-800 text-white text-center py-5">
+        <div>
+            <p>&copy; 2021 Hotel Heavenly. All rights reserved.</p>
+        </div>
+        <div class="flex justify-center gap-4 py-2">
+            <a href="https://www.facebook.com/profile.php?id=100074189272872" target="_blank" rel="noopener"
+                title="Facebook Profile"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://t.me/Leaner296" target="_blank" title="Telegram Profile"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/riyazul-arfaat-491454178/" target="_blank" title="LinkedIn Profile"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/riyazularfaat?tab=overview&from=2025-03-01&to=2025-03-02" target="_blank"
+                title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
